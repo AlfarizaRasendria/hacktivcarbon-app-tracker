@@ -1,0 +1,26 @@
+# Logs
+hacktivCapstone-BE/logs
+hacktivCapstone-BE/*.log
+hacktivCapstone-BE/npm-debug.log*
+hacktivCapstone-BE/yarn-debug.log*
+hacktivCapstone-BE/yarn-error.log*
+hacktivCapstone-BE/pnpm-debug.log*
+hacktivCapstone-BE/lerna-debug.log*
+hacktivCapstone-BE/node_modules
+hacktivCapstone-BE/dist
+hacktivCapstone-BE/dist-ssr
+hacktivCapstone-BE/*.local
+hacktivCapstone-BE/.env
+
+# Editor directories and files
+hacktivCapstone-BE/.vscode/*
+hacktivCapstone-BE/!.vscode/extensions.json
+hacktivCapstone-BE/.idea
+hacktivCapstone-BE/.DS_Store
+hacktivCapstone-BE/*.suo
+hacktivCapstone-BE/*.ntvs*
+hacktivCapstone-BE/*.njsproj
+hacktivCapstone-BE/*.sln
+hacktivCapstone-BE/*.sw?
+
+hacktivCapstone-FE/.env
