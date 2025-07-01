@@ -1,0 +1,36 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+.navbar .nav-link {
+  color: #a2ffc5 !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #00ff95 !important;
+  transform: scale(1.05);
+}
+
+.appsLogo{
+    width: 75px;
+    height: 75px;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    text-align: right;
+  }
+  .navbar-nav {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0; /* bisa juga 1rem atau 8px */
+  }
+}
