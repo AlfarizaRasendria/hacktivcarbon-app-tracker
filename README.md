@@ -15,4 +15,4 @@ Technology Used while developing this project such as :
  application is deployed on a
  Virtual Private Server provided
  by BiznetCloud, ensuring high
- performance and scalability
+ performance and scalability. Besides that, tunelling is also used using ngrok because the protocol that is provided by Virtual Private Server is HTTP which means unsecure protocol for sending and receiving data, so Ngrok provided static domain then in virtual private server, we have to configure it (tunelling) and the protocol will be an Https.   
