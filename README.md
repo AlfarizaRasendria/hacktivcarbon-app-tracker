@@ -16,3 +16,39 @@ Technology Used while developing this project such as :
  Virtual Private Server provided
  by BiznetCloud, ensuring high
  performance and scalability. Besides that, tunelling is also used using ngrok because the protocol that is provided by Virtual Private Server is HTTP which means unsecure protocol for sending and receiving data, so Ngrok provided static domain then in virtual private server, we have to configure it (tunelling) and the protocol will be an Https.   
+
+
+
+**Installation**
+# Clone Repository
+git clone https://github.com/username/nama-proyek.git
+
+**Access into Front End Project Folder**
+cd hacktivCapstone-FE
+search up for .env file then fill in VITE_CARBON_API_KEY as yours and initiate VITE_BACKEND_URL=http://localhost:8080
+
+**Access into BackEnd Project Folder**
+cd hacktivCapstone-BE
+search up for .env file then fill in SUPABASE_URL, SUPABASE_API_KEY, ProjectRef, and set up GIN_MODE=release as yours
+
+**Access Terminal and switch to Front End Directory**
+cd .\hacktivCapstone-FE\
+
+**Run Vite**
+npm run dev
+
+**Open New Terminal and switch into Backend Directory**
+cd .\hacktivCapstone-BE\
+
+**Run Golang as Backend Service**
+go run main.go
+
+
+🧑‍💻 Contributor
+M. Alfariza Rasendria 
+u can Reach me on my social media : 
+Instagram - @alfariza123123
+Email - rasendria.alfariza18@gmail.com
+
+📄 License
+This project is licensed under the MIT License.
